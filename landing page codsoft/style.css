@@ -1,0 +1,99 @@
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background-color: #b35f5f;
+    background-image: url("https://images.unsplash.com/photo-1605602560252-2d23ec73d48a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1530&q=80");
+    color: rgb(236, 229, 229);
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Hero section styles */
+#hero {
+    background-color: #FF9F1C;
+    background-image: url("https://i.pinimg.com/564x/ca/22/a5/ca22a596ba63b16e5e16124ec0be1008.jpg");
+    color: white; ;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.btn {
+    background-color: #FF3838;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* About section styles */
+#about {
+    background-color: #1BBC9B;
+    background-image: url("https://i.pinimg.com/564x/4d/f6/e0/4df6e00d71ef4b0fd9ed2ef4cc9e8936.jpg");
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+/* Features section styles */
+#features {
+    background-color: #3498DB;
+    background-image: url("https://i.pinimg.com/564x/3d/68/f6/3d68f643713ab326c0ea8b8871b05cf0.jpg");
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.feature {
+    margin-bottom: 40px;
+}
+
+/* Contact section styles */
+#contact {
+    background-color: #E74C3C;
+    background-image: url("https://i.pinimg.com/564x/cc/89/be/cc89be075b4a2b389c4819dfe479eb7b.jpg");
+    color: rgb(252, 251, 254);
+    text-align: center;
+    padding: 100px 0;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    background-image: url("https://images.unsplash.com/photo-1605602560252-2d23ec73d48a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1530&q=80");;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
