@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgba(8, 8, 8, 0.847);
+    color: rgb(247, 242, 242);
+    font-family: 'poppins', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(177, 177, 236);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li:hover{
+    list-style: none;
+    margin: 0 23px;
+}
+main hr{
+    border: 0;
+    background: violet;
+    height: 1.2px;
+    margin: 10px 0;
+}
+.left{
+    font-size: 3rem;
+}
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: right;
+    margin: 23px 0;
+}
+.firstSection{
+    width: 50%;
+}
+.leftSection{
+    background-color: none;
+    width: 300px;
+}
+.rightSection{
+    background-color: none;
+    font-size: 2rem;
+}
+.purple{
+    color: rgb(238, 234, 243);
+}
+#element{
+    color: blueviolet;
+}
+.secondsection h1{
+    font-size: 2rem;
+}
+.secondsection box{
+    background: rgba(244, 240, 240, 0.847);
+    width: 80vw;
+    height: 2px;
+    margin: 5px 0;
+    margin: flex;
+}
+.secondsection .vertical{
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 120px;
+}
+.image-left{
+    width: 400px;
+}
+.vertical title{
+    font-size: 1.9rem;
+
+}
+#resume,
+  #contact {
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  #resume a {
+    text-decoration: none;
+    color: #f8f3f3;
+    border: 1px solid #0d1176;
+    padding: 1px 20px;
+    border-radius: 5px;
+  }
+footer{
+    display: flex;
+    margin: 20px 122px;
+    background-color: #333;
+    font-size: 2rem;
+    background-image: url("https://wallpapers.com/images/hd/nature-blur-background-x6nsya3onqq6pbwh.jpg"); ;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
